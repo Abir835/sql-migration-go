@@ -28,7 +28,7 @@ Follow these steps to set up and run the project locally:
 ### Prerequisites
 - Go (1.x or later)
 - PostgreSQL running locally or on a server
-- `gopkg.in/rubenv/sql-migrate.v0` package for migrations
+- `[gopkg.in/rubenv/sql-migrate.v0](https://pkg.go.dev/github.com/rubenv/sql-migrate)` package for migrations
 
 ### Steps
 1. Clone the repository:
