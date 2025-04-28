@@ -8,8 +8,6 @@ import (
 
 func MigrationDB() {
 
-	db := connectDB()
-
 	migrations := &migrate.FileMigrationSource{
 		Dir: "migrations",
 	}

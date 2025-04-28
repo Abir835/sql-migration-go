@@ -7,7 +7,7 @@ import (
 
 var db *sql.DB
 
-func connectDB() *sql.DB {
+func ConnectDB() *sql.DB {
 	if db != nil {
 		return db
 	}
